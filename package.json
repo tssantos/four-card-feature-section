@@ -1,10 +1,10 @@
 {
-  "name": "react-ts-boilerplate",
+  "name": "four-card-feature-section",
   "author": {
     "name": "Thiago Santos",
     "email": "tssantos@gmail.com"
   },
-  "homepage": "https://tssantos.github.io/react-ts-boilerplate/",
+  "homepage": "https://tssantos.github.io/four-card-feature-section/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

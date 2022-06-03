@@ -1,0 +1,117 @@
+.app {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+
+  background-color: #fafafa;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app main {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1440px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding: 80px 165px;
+}
+
+.app main h1 {
+  height: 54px;
+  font-weight: 275;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: #4d4f62;
+}
+
+.app main h1.strong {
+  font-weight: 600;
+  margin-top: -2px;
+  margin-bottom: 13px;
+}
+
+.app main p.subtitle {
+  width: 540px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+
+  text-align: center;
+  letter-spacing: 0.104167px;
+
+  color: #4d4f62;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+
+  margin-bottom: 64px;
+}
+
+.app .cards {
+  width: 1110px;
+  height: 530px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  align-items: center;
+  justify-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.app .cards > :first-child,
+.app .cards > :last-child {
+  margin-top: 140px;
+}
+
+@media screen and (max-width: 375px) {
+  .app main {
+    max-width: 311px;
+    padding-top: 85px;
+  }
+  .app main p.subtitle {
+    width: 311px;
+  }
+
+  .app main h1 {
+    width: 311px;
+    height: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+  }
+
+  .app main h1.strong {
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 13px;
+  }
+
+  .app main p.subtitle {
+    margin-bottom: 76px;
+  }
+
+  .app .cards {
+    width: 311px;
+    height: 960px;
+    flex-wrap: nowrap;
+  }
+
+  .app .cards > :first-child,
+  .app .cards > :last-child {
+    margin-top: 0px;
+  }
+}
